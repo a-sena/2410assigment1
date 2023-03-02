@@ -1,6 +1,6 @@
 from socket import *
 import sys
-#The code I wrote is first parses the command-line arguments to get the server host, port number, and file name to request. 
+#The code I wrote  first parses the command-line arguments to get the server host, port number, and file name to request. 
 # It then opens the specified file, reads its contents, and sends an HTTP GET request to the server using the socket library. 
 # Finally, it prints the server's response and closes the socket.
 
