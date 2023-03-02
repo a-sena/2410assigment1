@@ -4,7 +4,7 @@ import sys # In order to terminate the program
 serverSocket = socket(AF_INET, SOCK_STREAM) 
 serverPort = 9000
 recvBuffer = 1024
-serverHost='128.39.79.92'
+serverHost=''127.0.0.1''
 #Prepare a sever socket
 #Write your code here
 serverSocket.bind(('', serverPort))
