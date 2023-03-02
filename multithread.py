@@ -6,7 +6,7 @@ import threading
 serverSocket = socket(AF_INET, SOCK_STREAM) 
 serverPort = 9000
 recvBuffer = 1024
-serverHost='158.36.145.211'
+serverHost='127.0.0.1'
 #Prepare a sever socket
 #Write your code here
 serverSocket.bind(('', serverPort))
@@ -87,5 +87,5 @@ start()
         #function start meant to simply handle new connection and kind of disturbite those to where they need to go 
         #whereas function handle_client will  handle individuall connection between one server and one client
 
-# Kilden som ble brukt for å kunne løse denne oppgaven er:
+# Kilden som jeg fikk hjelp for å kunne løse denne oppgaven er:
 # https://www.youtube.com/watch?v=3QiPPX-KeSc
